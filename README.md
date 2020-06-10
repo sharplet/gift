@@ -18,3 +18,7 @@ With [Homebrew](https://brew.sh/) and [Mint](https://github.com/yonaskolb/Mint):
 brew install ffmpeg mint
 mint install sharplet/gift
 ```
+
+## Acknowledgements
+
+All credit goes to [Ciri Santilli’s awesome post on Stack Overflow](https://askubuntu.com/a/837574) for the `ffmpeg` magic.
