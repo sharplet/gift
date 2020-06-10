@@ -35,7 +35,7 @@ struct Gift: ParsableCommand {
     try exec(
       "ffmpeg",
       "-i", inputPath.rawValue,
-      "-framerate", "\(framerate)",
+      "-r", "\(framerate)",
       "-filter:v", "scale=\(maxWidth):-1,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse",
       outputPath.rawValue
     )
