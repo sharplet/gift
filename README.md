@@ -22,3 +22,7 @@ mint install sharplet/gift
 ## Acknowledgements
 
 All credit goes to [Ciri Santilli’s awesome post on Stack Overflow](https://askubuntu.com/a/837574) for the `ffmpeg` magic.
+
+## License
+
+See [LICENSE](LICENSE).
