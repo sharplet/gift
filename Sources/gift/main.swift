@@ -11,7 +11,11 @@ struct Gift: ParsableCommand {
   @Option(default: 15, help: "The framerate of the resulting GIF.")
   var framerate: Int
 
-  @Option(default: 512, help: "Maximum width, preserving aspect ratio.")
+  @Option(
+    name: [.customShort("w"), .long],
+    default: 512,
+    help: "Maximum width, preserving aspect ratio."
+  )
   var maxWidth: Int
 
   @Option(
