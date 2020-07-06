@@ -15,7 +15,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-argument-parser.git", from: "0.1.0"),
-    .package(url: "https://github.com/sharplet/SwiftIO.git", .branch("file-handle")),
+    .package(url: "https://github.com/sharplet/SwiftIO.git", .branch("master")),
   ],
   targets: [
     .target(name: "gift", dependencies: [.argumentParser, "SwiftIO"]),
