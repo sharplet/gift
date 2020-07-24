@@ -8,15 +8,14 @@ struct Gift: ParsableCommand {
     abstract: "Convert a video to a GIF using ffmpeg."
   )
 
-  @Option(default: 15, help: "The framerate of the resulting GIF.")
-  var framerate: Int
+  @Option(help: "The framerate of the resulting GIF.")
+  var framerate: Int = 15
 
   @Option(
     name: [.customShort("w"), .long],
-    default: 512,
     help: "Maximum width, preserving aspect ratio."
   )
-  var maxWidth: Int
+  var maxWidth: Int = 512
 
   @Option(
     name: [.short, .customLong("output")],

@@ -6,17 +6,17 @@
         "repositoryURL": "https://github.com/apple/swift-argument-parser.git",
         "state": {
           "branch": null,
-          "revision": "3d79b2b5a2e5af52c14e462044702ea7728f5770",
-          "version": "0.1.0"
+          "revision": "eb51f949cdd0c9d88abba9ce79d37eb7ea1231d0",
+          "version": "0.2.0"
         }
       },
       {
         "package": "SwiftIO",
         "repositoryURL": "https://github.com/sharplet/SwiftIO.git",
         "state": {
-          "branch": "file-handle",
-          "revision": "8fe317566b2447f22491b873fdb898305b61159c",
-          "version": null
+          "branch": null,
+          "revision": "6a5c67a28e40bd602628152f24627d7a840f5f0b",
+          "version": "0.2.0"
         }
       }
     ]
